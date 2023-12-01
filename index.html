@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Paint Cat</title>
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Paint Cat</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +46,7 @@
       </div>
     </nav>
   </header>
-  <section>
+  <section class="section1">
     <div id="carouselExampleDark" class="carousel carousel-dark slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -55,24 +55,24 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="" class="d-block w-100" alt="...">
+          <img src="./public/assets/img/Louis_Wain_The_bachelor_party.jpg" class="d-block w-100" alt="the_bachelor_party">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>The Bachelor Party (Louis Wain, 1896)</h5>
+            <p>Nous sommes en compagnie d’une horde de chats aux yeux exorbités pour un enterrement de vie de garçon.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="./public/assets/img/le_chat_blanc.jpg" class="d-block w-100" alt="le_chat_blanc">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5 class="white">Le chat blanc (Franz Marc, 1912)</h5>
+            <p class="white">Le félin blanc se détache d’un fond rouge, qui apporte du dynamisme, et jaune, qui évoque la joie.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="./public/assets/img/Charles_van_den_Eycken_-_heure_du_déjeuner.jpg" class="d-block w-100" alt="heure-du-jeu">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5 class="white">L’Heure du jeu (Charles van den Eycken, 1910)</h5>
+            <p class="white">Charles van den Eycken est un peintre belge spécialisé dans les scènes d'intérieur, de chats et de chiens de la vie quotidienne.</p>
           </div>
         </div>
       </div>
@@ -86,9 +86,171 @@
       </button>
     </div>
   </section>
-  <section>
-    
+  <section class="section2">
+    <div class="row row-cols-4 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./public/assets/img/le-sanctuaire.jpg" class="card-img-top" alt="le-sanctuaire">
+          <div class="card-body">
+            <h5 class="card-title">Le sanctuaire de Yushima Tenjin depuis le sommet de la colline (Utagawa Hiroshige, 1856)</h5>
+            <p class="card-text">Sur cette estampe de la série des Cent vues d'Edo, Hiroshige représente un chat assis, observant sur un muret la procession qui se déroule dans les rizières, avec une vue sur le mont Fuji en arrière plan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./public/assets/img/Pierre-Auguste_Renoir_-_Julie_Manet.jpg" class="card-img-top" alt="julie-manet">
+          <div class="card-body">
+            <h5 class="card-title">Julie Manet (Auguste Renoir, 1887)</h5>
+            <p class="card-text">Le portrait de Julie Manet constitue un magnifique exemple des recherches formelles de Renoir à cette époque, notamment pour l'aspect très fini, presque émaillé de la surface picturale. Mais le tableau est aussi une réussite par l'attention attendrie et sensible que le peintre porte à son jeune modèle.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./public/assets/img/Théophile_Alexandre_Steinlen_-_Tournée_du_Chat_Noir_-_Google_Art_Project.jpg" class="card-img-top" alt="chat_noir">
+          <div class="card-body">
+            <h5 class="card-title">La tournée du Chat Noir de Rodolphe Salis (Théophile Alexandre Steinlen, 1896)</h5>
+            <p class="card-text">Dans la Suisse voisine, Théophile Alexandre Steinlen (1859-1923), peintre et graveur de l'Art nouveau, est devenu particulièrement célèbre pour ses affiches de La Tournée du Chat Noir, cabaret parisien considéré comme le premier cabaret moderne.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./public/assets/img/Kuniyoshi_Utagawa,_For_cats_in_different_poses.jpg" class="card-img-top" alt="for_cats">
+          <div class="card-body">
+            <h5 class="card-title">Proverbes illustrés [avec des chats] (Utagawa Kuniyoshi, 1852)</h5>
+            <p class="card-text">Ses sujets englobaient de nombreux genres, notamment le paysage et le portrait (principalement de geishas, d’acteurs et de chats). Grand amateur de félins, dont il était entouré lorsqu'il travaillait dans son atelier, Kuniyoshi a également utilisé des chats dans ses estampes satiriques. Dans l'une de ses œuvres les plus célèbres, les félins prennent des poses variées et expressives pour illustrer des proverbes japonais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+  <section>
+    <img src="./public/assets/img/chat_picasso.jpg" class="img-fluid col-5 g-5" alt="..." >
+    <img src="./public/assets/img/NY_Moma_klee_cat_and_bird.JPG" class="img-fluid col-5" alt="...">
+  </section>
+  <footer class="bg-dark text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img class="img-logo" src="./public/assets/img/NY_Moma_klee_cat_and_bird.JPG" height="70" alt="cat_and_bird" loading="lazy" />
+          </div>
+
+          <p class="text-center"></p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Animals</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>When your pet is missing</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Recently found</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>How to adopt?</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Pets for adoption</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Material gifts</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Help with walks</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Volunteer activities</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Animals</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>General information</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>About the shelter</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Statistic data</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Job</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Tenders</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fas fa-map-marker-alt pe-2"></i></p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+            </li>
+            <li>
+              <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="#"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
       
 
